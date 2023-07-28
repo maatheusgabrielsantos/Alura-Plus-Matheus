@@ -23,6 +23,8 @@ body{
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{ 
@@ -37,7 +39,8 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
-    text-decoration: none; 
+    text-decoration: none;
+    margin-bottom: 1em; 
 }
 
 
@@ -56,8 +59,13 @@ body{
 }
 
 
-
-
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+ 
+.container__caixa{
+    margin: 0 6em;
+}
 
 
 
